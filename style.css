@@ -24,7 +24,48 @@ h1{
     /* background-color: #006494; */
     text-transform: uppercase;
 }
+.first-screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background: linear-gradient(135deg, #00A6FB, #006494); */
+    color: white;
+    text-align: center;
 
+}
+.btns-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.btn{
+    /* height: 2rem;
+    width: 5rem; */
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    background: #0582CA;
+    border: none;
+    padding: 12px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background 0.3s ease;
+
+}
+.btn:hover {
+    background: #003554;
+    transform: scale(1.05);
+}
+
+
+.btn:active {
+    background: #051923;
+    transform: scale(0.95);
+}
 .board{
     /* height: 60vmin; */
     display: flex;
