@@ -35,6 +35,9 @@ h1{
     text-align: center;
 
 }
+.tictactoe{
+    color: #00fbc0
+}
 .btns-container{
     display: flex;
     justify-content: center;

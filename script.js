@@ -21,6 +21,13 @@ const winPatterns = [
     [0, 4, 8],
     [2, 4, 6]
 ];
+const board=[[0,0,0],[0,0,0],[0,0,0]];
+computer.addEventListener("click",()=>{
+    firstScreen.classList.add("hide");
+    haswinner=false;
+    turnX=true;
+    cnt=0;
+})
 twoPlayers.addEventListener("click",()=>{
     firstScreen.classList.add("hide");
     haswinner=false;
