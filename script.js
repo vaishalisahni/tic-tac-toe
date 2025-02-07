@@ -8,6 +8,10 @@ const msg=document.querySelector(".msg")
 const msgContainer=document.querySelector(".msg-container");
 const mainContainer=document.querySelector(".main-container");
 
+
+let origboard;
+const huPlayer='X';
+const aiPlayer='o';
 let haswinner=false;
 let cnt=0;
 let turnX = true;
